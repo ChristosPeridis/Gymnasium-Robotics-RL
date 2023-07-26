@@ -1,0 +1,1 @@
+{"type": "Algorithm", "checkpoint_version": "1.2", "format": "cloudpickle", "state_file": "/home/cocp5/Gymnasium-Robotics-RL/Gymnasium_Pick_Place_0/PPO/PPO_Gymnasium_Pick_Place_0_1498a_00000_0_2023-07-25_13-30-46/checkpoint_000990/algorithm_state.pkl", "policy_ids": ["default_policy"], "ray_version": "2.6.1", "ray_commit": "d68bf04883af2e430fc3a50fd544bb7c84aff2e9"}
