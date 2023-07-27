@@ -5,7 +5,7 @@ Leveraging the combined forces of the Gymnasium API and MuJoCo simulator to perf
 1. The present repository uses MuJoCo  physics simulator engine as its simulation backend. The version being used is MuJoCo210 which you can download from [here.](https://github.com/deepmind/mujoco/releases/tag/2.1.0)
 2. Once you have downloaded the compressed MuJoCo file you will have to follow the next steps:
    * Create a hidden directory for MuJoCo simulator in your home directory: ```mkdir .mujoco```
-   * Extract the compressed file in that directory: ```tar -xzf mujoco210-linux-x86_64.tar.gz -C ~/.mujoco/mujoco210```
+   * Extract the compressed file in that directory: ```tar -xzf mujoco210-linux-x86_64.tar.gz -C ~/.mujoco```
    * Download the MuJoCo license key from [here.](https://roboti.us/file/mjkey.txt)
    * Add the license key inside the _.mujoco_ hidden folder.
 3. MuJoCo's rendering capabilities are based on the following backends : glfw, osmesa, egl. It is important to make sure that these backends are installed in your system. You can install them by running the following command on the terminal: ```sudo apt-get install libglfw3 libglew2.0 libgl1-mesa-glx libosmesa6```. In case you have to use osmesa as a backend and you are facing issues **it is recomended to install the dev version :** ```sudo apt-get install libosmesa6-dev```
