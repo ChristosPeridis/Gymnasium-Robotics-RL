@@ -1,0 +1,1 @@
+{"type": "Algorithm", "checkpoint_version": "1.2", "format": "cloudpickle", "state_file": "/home/lunet/cocp5/R3L/Notebooks/R3L-LOGS/PPO/PPO_Gymnasium_Pick_Place_0_Dense_6abf4_00000_0_2023-07-27_17-48-30/checkpoint_000046/algorithm_state.pkl", "policy_ids": ["default_policy"], "ray_version": "2.6.1", "ray_commit": "d68bf04883af2e430fc3a50fd544bb7c84aff2e9"}
