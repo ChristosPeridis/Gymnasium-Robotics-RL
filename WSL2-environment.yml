@@ -363,8 +363,4 @@ dependencies:
 variables:
   MUJOCO_GL: osmesa
   PYOPENGL_PLATFORM: osmesa
-  MJLIB_PATH: ~/.mujoco/mujoco210/bin/libmujoco210.so
-  LD_LIBRARY_PATH: :~/.mujoco/mujoco210/bin
-  MUJOCO_PY_MUJOCO_PATH: ~/.mujoco/mujoco210
-  MUJOCO_PY_MJKEY_PATH: ~/.mujoco/mjkey.txt
 prefix: /home/cocp5/anaconda3/envs/R3L
