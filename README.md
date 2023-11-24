@@ -15,6 +15,8 @@ The steps for installing R3L API to your working environment are the following:
 
 For more advanced experiments you work with the [Gymnasium-Robotics-R3L](https://github.com/ChristosPeridis/Gymnasium-Robotics-R3L/tree/main) which is an extension of the R3L API which facilitates more challenging robotics environments. You can install Gymnasium-Robotics-R3L to your R3L conda environment by following the instraction found [here](https://github.com/ChristosPeridis/Gymnasium-Robotics-R3L/tree/main).
   
-> Because glfw is not working in headless environments and osmesa is running on CPU and not GPU, we recomend to use egl backend. The WSL2 environments have been tested and currently support only osmesa backend, hence all the processing is happening on the CPU.
+> **Note:** Because glfw is not working in headless environments and osmesa is running on CPU and not GPU, we recomend to use egl backend. The WSL2 environments have been tested and currently support only osmesa backend, hence all the processing is happening on the CPU.
+>
+> **Note:** To run R3L on a WSL2 system you will need to install the WSL2 Ubuntu 20.04.06 LTS, which is the version currently supportd by the R3L API. Relative works have been contactd to suppurt WSL2 Ubuntu 22.04 LTS, however it is still on beta stage.
 > 
 > **Note:** The code on the present repository is using the latest MuJoCo python bindings from DeepMind as supose to the original MuJoCo_Py bindings from OpenAI. This is done so to decrease the installation difficulty since the original MuJoCo_Py bindings have been tested and proven to be difficult and time-consuming to setup. The configuration can go wrong very easily. Different version of MuJoCo simulator support different versions of MuJoCo_Py bindings and specific versions of MuJoCo_Py bindings require specific builds of Python done by specific gcc compilers.
