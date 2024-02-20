@@ -314,7 +314,6 @@ dependencies:
       - pandas==2.0.3
       - pathspec==0.11.2
       - pathvalidate==2.5.2
-      - pettingzoo==1.23.1
       - platformdirs==3.9.1
       - pluggy==1.2.0
       - protobuf==4.23.4
@@ -387,8 +386,4 @@ dependencies:
 variables:
   MUJOCO_GL: egl
   PYOPENGL_PLATFORM: egl
-  MJLIB_PATH: /home/lunet/cocp5/.mujoco/mujoco210/bin/libmujoco210.so
-  LD_LIBRARY_PATH: :/home/lunet/cocp5/.mujoco/mujoco210/bin
-  MUJOCO_PY_MUJOCO_PATH: /home/lunet/cocp5/.mujoco/mujoco210
-  MUJOCO_PY_MJKEY_PATH: /home/lunet/cocp5/.mujoco/mjkey.txt
-prefix: /home/lunet/cocp5/anaconda3/envs/R3L
+prefix: R3L
